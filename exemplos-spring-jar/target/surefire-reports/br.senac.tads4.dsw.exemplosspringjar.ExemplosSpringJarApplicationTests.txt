@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.senac.tads4.dsw.exemplosspringjar.ExemplosSpringJarApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.946 sec - in br.senac.tads4.dsw.exemplosspringjar.ExemplosSpringJarApplicationTests

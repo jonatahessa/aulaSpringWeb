@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Produtos</h1>
+            <div class="row">
+                <div class="col-sm-4" th:each="prod : ${lista}">
+                    <h2 th:text="${prod.nome}">Nome do Produto</h2>
+                    <p th:text="${prod.preco}">Preço do produto</p>
+                    <p th:text="${prod.dtCadastro}">Data de Cadastro</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
